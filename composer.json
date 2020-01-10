@@ -1,6 +1,6 @@
 {
-    "name": "stayallive/laravel-azure-servicebus-queue",
-    "description": "Extending the Laravel queue to support the Microsoft Azure Service Bus Queue.",
+    "name": "yura-chen/laravel-azure-servicebus-queue",
+    "description": "Extending the Laravel queue to support the Microsoft Azure Service Bus Queue. Added suport of Laravel 6",
     "keywords": [
         "laravel",
         "azure",
@@ -10,15 +10,15 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Alex Bouma",
-            "email": "me@alexbouma.me"
+            "name": "Yura Chen",
+            "email": "yura.chen@lemberg.co.uk"
         }
     ],
     "require": {
-        "php": ">=5.6.4",
-        "illuminate/container": "5.2.*",
-        "illuminate/support": "5.2.*",
-        "illuminate/encryption": "5.2.*",
+        "php": ">=7.2",
+        "illuminate/container": "~6",
+        "illuminate/support": "~6",
+        "illuminate/encryption": "~6",
         "microsoft/windowsazure": "^0.4"
     },
     "autoload": {
